@@ -1,0 +1,16 @@
+.container-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 1rem;
+    margin: 10px;
+}

@@ -1,0 +1,26 @@
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 15px 8%;
+    position: fixed;
+}
+
+.logo h1{
+    color: #fff;
+    font-size: 1.8rem;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
