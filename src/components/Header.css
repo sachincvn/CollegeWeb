@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url('http://localhost:3000/suk-university.jpg');
+    background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url('https://suk-web.web.app/suk-university.jpg');
     background-position: center;
     background-size: cover;
 
