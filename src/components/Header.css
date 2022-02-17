@@ -4,13 +4,13 @@
     background-image: linear-gradient(rgba(5,0,136,0.5),rgba(5,0,136,0.5)),url('https://suk-web.web.app/suk-university.jpg');
     background-position: center;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
 }
 
 .content{
     display: flex;
+    width: 100%;
+    margin-top: 10%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -57,9 +57,9 @@
     transition: .5s;
 }
 
-.slide-left{
-    animation: slideleft 8s linear forwards;
-}
+/* .slide-left{
+    animation: slideleft 8s  forwards;
+} */
 
 
 @keyframes slideleft{
@@ -70,5 +70,17 @@
     10%{
         transform: translate(0px);
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .content{
+        margin-top: 25%;
+    }
+    .content p{
+        font-size: .8rem;
+    }
+    .content h1{
+        font-size: 3rem;
     }
 }
